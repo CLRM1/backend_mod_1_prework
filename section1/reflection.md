@@ -51,5 +51,17 @@ gets
 
 1. Name and describe two common string methods:
 
-- The `chomps` method removes the next line that is automatically added when you get user input using `gets`.
-- The `length` method returns the number of characters in a string.
+- The `.split` method breaks the string into parts. For example if you have the following string could be split into two words with the `.split` method:
+
+```ruby
+name = "Chris Romero"
+name.split
+["Chris", "Romero"]
+```
+- The `.length` method returns the number of characters in a string. For example the following string has a length of 3 because it has 3 characters.
+
+```ruby
+name = "Tom"
+name.length
+3
+```
