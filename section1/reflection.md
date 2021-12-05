@@ -6,17 +6,17 @@
   - Moving forward I want to teach what I’m learning and take more short breaks.
 
 1. How would you print the string `"Hello World!"` to the terminal?
-I would use either
+- I would use either
 ```ruby
 puts "Hello World!"
 ```
-Or
+- Or
 ```ruby
 print "Hello World!"
 ```
 
 1. What character is used to indicate comments in a ruby file?
-The octothorpe `#`.  
+- The octothorpe `#`.  
 
 1. Explain the difference between an integer and a float?
 
@@ -36,8 +36,8 @@ puts animal
 ```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-Interpolation is where your embed ruby code into a string.
-For example, in ruby:
+- Interpolation is where your embed ruby code into a string.
+- For example, in ruby:
 ```ruby
 puts "The #{animal} looks like a striped horse."
 ```
