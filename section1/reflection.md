@@ -43,7 +43,7 @@ puts "The #{animal} looks like a striped horse."
 ```
 
 1. What method is used to get input from a user?
-The gets method is used to get input from a user in ruby:
+- The gets method is used to get input from a user in ruby:
 
 ```ruby
 gets
@@ -51,5 +51,5 @@ gets
 
 1. Name and describe two common string methods:
 
-1. The `chomps` method removes the next line that is automatically added when you get user input using `gets`.
-2. The `length` method returns the number of characters in a string.
+- The `chomps` method removes the next line that is automatically added when you get user input using `gets`.
+- The `length` method returns the number of characters in a string.
