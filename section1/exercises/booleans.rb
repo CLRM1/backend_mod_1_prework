@@ -3,7 +3,7 @@
 #-------------------
 
 # EXAMPLE: log to the console the result of 1 is equal to 2:
-puts 1 === 2
+puts 1 == 2
 
 # EXAMPLE: log to the console the result of 7 is greater than 2:
 puts 7 > 2

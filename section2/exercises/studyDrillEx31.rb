@@ -1,7 +1,7 @@
 puts "Welcome to Political Trivia"
 
 puts "Would you like to play US trivia or World trivia?"
-puts "Enter u for US or w for World."
+puts "Enter u or w"
 choice = $stdin.gets.chomp
 
 if choice == "u" || choice == "U"
@@ -37,7 +37,7 @@ elsif choice == "w" || choice == "W"
   if france == "A" || france == "a"
     puts "Correct, Emmanuel Macron is the current president of France."
   elsif france == "D" || france == "d"
-    puts "Wrong, Boris Johnson is the UK Prime Minister."
+    puts "Wrong, Boris Johnson is the UK Prime Minister. Emmanuel Macron is the correct answer."
   else
     puts "Wrong, Emmanuel Macron is the current president of France."
   end
