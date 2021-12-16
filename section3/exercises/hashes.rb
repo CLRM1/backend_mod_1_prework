@@ -5,32 +5,32 @@
 
 # Example: Write code that prints a hash holding grocery store inventory:
 foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+puts foods
 
 # Write code that prints a hash holding zoo animal inventory:
 zoo = {zebras: 4, camels: 2, bears: 1}
-p zoo
+puts zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo.keys
+puts zoo.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo.values
+puts zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo[:zebras]
+puts zoo[:zebras]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 # YOUR CODE HERE
 zoo[:lion] = 3
-p zoo
+puts zoo
 
 #-------------------
 # Part 2: Email
@@ -54,17 +54,17 @@ email = {
 }
 
 # Write code that prints your email hash to the terminal.
-p email
+puts email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
-p email.keys
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
-p email.values
+puts email.values
 
 #-------------------
 # Part 3: Many Emails - OPTIONAL EXTENSION
@@ -138,6 +138,6 @@ emails = [
     'label' => "Health",
     'attachments' => ["test_results.pdf"],
     'date' => 211209
-  },
+  }
 ]
 puts emails
