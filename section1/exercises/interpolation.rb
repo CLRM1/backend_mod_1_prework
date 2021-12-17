@@ -27,8 +27,8 @@ puts "In a predictable result, the #{slow_poke} beat the #{speedy}"
 # YOU DO:
 # Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
 
-wish = "hope"
-quality = "great"
-time = "day"
+student = "Chris"
+phrase = "have a great"
+time_of_day = "afternoon"
 
-puts "I #{optimism} you have a #{quality} #{time}!"
+puts "#{student} says #{phrase} #{time_of_day}!"

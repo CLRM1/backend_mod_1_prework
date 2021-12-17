@@ -1,6 +1,4 @@
-- elsif creates another "code branch" - cars must now
-- be less than people for the statement to be true  
-- and for the following code to be enabled: 
+1.  `elsif` creates another "code branch" and cars must now be less than people for the statement to be true and for the following code to be enabled:
 
 ```ruby
 

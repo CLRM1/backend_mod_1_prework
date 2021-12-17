@@ -56,6 +56,7 @@ print "Adding broccoli to foods array #{foods}"
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
+# however you should use delete_at() when calling a method as pop will only remove the last item on the array when called in a method
 foods.pop[5]
 print "Updated foods array, removing broccoli: #{foods}"
 
