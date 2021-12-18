@@ -118,20 +118,20 @@ class SuperHero
 
 end
 
-batman = SuperHero.new("Batman", "Fighting", 50)
-
-robin = SuperHero.new("Robin", "Helping Batman", 30)
 # - Create the following class methods
 #   - say_name, should print the hero's name to the terminal
 #   - maximize_energy, should update the energy_level to 1000
 #   - gain_power, should take an argument of a number and INCREASE the power_level by that number
 
 # - Create 2 instances of your SuperHero class
+batman = SuperHero.new("Batman", "Fighting", 50)
 
+robin = SuperHero.new("Robin", "Helping Batman", 30)
 
 # Reflection
 # What parts were most difficult about this exerise?
-
+# - Making sure to use the correct logical operator in the if statement, I first used an or (||) operation instead of the and (&&) operation. Creating classes and objects was also a little challenging.
 # What parts felt most comfortable to you?
-
+# - Creating variables, if statments, and invoking methods are the concepts I feel most comfortable with.
 # What skills do you need to continue to practice before starting Mod 1?
+# - I'll need to practice creating classes with local instance variables and creating objects. 
