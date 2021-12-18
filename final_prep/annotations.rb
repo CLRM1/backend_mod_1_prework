@@ -45,7 +45,6 @@ def fizzbuzz(num_1, num_2, range)
     # Create if statment comparing the remainder of the varialbe `i` divided (modulo)
     # by the parameter num_1 to the data type `number` and the value 0. If they are equal
     # then `i` is compared to the remainder of `i` divided (modulo) by num_2 and the value 0.
-    # In plain english, if `i` (each number in the range) divides
     if i % num_1 === 0 && i % num_2 === 0
     # If the variable `i` meets both conditions then the string `fizzbuzz` is printed.
       puts 'fizzbuzz'
